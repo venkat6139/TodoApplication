@@ -3,8 +3,58 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
-
 In the project directory, you can run:
+
+## Introduction
+This is a simple To-Do application built using React. It allows users to add, view, edit, delete, and mark tasks as completed. The application's state is managed using Redux, and tasks are persisted in local storage.
+
+## Features
+Add new tasks
+View a list of tasks
+Edit existing tasks
+Delete tasks
+Mark tasks as completed
+Persistent storage using local storage
+
+## Prerequisites
+Node.js (v14 or above)
+npm (v6 or above)
+
+## Project Structure
+Here is a brief overview of the project's structure:
+todo-app/
+│
+├── public/
+│   ├── index.html
+│   └── ...
+│
+├── src/
+│   ├── components/
+│   │   ├── TaskInput.js
+│   │   ├── TaskItem.js
+│   │   ├── TaskList.js
+│   │   └── ...
+│   │
+│   ├── redux/
+│   │   ├── actions.js
+│   │   ├── reducers.js
+│   │   └── store.js
+│   │
+│   ├── App.js
+│   ├── index.js
+│   └── ...
+│
+├── .gitignore
+├── package.json
+├── README.md
+└── ...
+
+## Redux Setup
+The state management of the application is handled using Redux. The main files related to Redux are:
+
+actions.js: Defines action types and action creators.
+reducers.js: Handles state changes based on actions.
+store.js: Configures the Redux store.
 
 ### `npm start`
 
